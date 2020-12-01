@@ -1,0 +1,44 @@
+p>{
+    color: rgb(128, 0, 255);
+    font-size: 100px;
+}
+.log{
+width: 1200px;
+height: 600px;
+}
+.pl{
+  background-color: gray;
+}
+
+.icono{
+  height: 100px;
+  width:200px ;
+}
+
+.cindex{
+  height: 600px;
+}
+
+footer{
+  text-align: center;
+  background-color:gray;
+}
+.tb{
+  height: 400px;
+  width: 500px;
+}
+.carusel{
+  height: 500px;
+}
+.p_justificado{
+  text-align: center;
+}
+
+.img_cards{
+  height: 340px;
+
+} 
+body{
+  background-image: url("imgs/fondo.jpg");
+  background-attachment: static;
+  }
