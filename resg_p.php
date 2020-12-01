@@ -20,9 +20,10 @@ if (isset($_POST["boton"]))
 
     $op_db ->agregarDatos($consultarSQL);
 
+    header("location:registro_productos.php");
+ }
     
-    
-}
+
 
 
 

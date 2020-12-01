@@ -54,12 +54,12 @@
         
         <div class="row row-cols-1 row-cols-md-4">
             <?php foreach($productos as $p):?>          
-          <div class="col mb-4">  
+          <div class="col mb-4 mt-3">  
             <div class="card h-100">
-                <img src="<?php echo($p["foto"])?>" class=" card-img-top img_fluid" alt="foto " >
+                <img src="<?php echo($p["foto"])?>" class=" card-img-top img_fluid img_cards" alt="foto " >
                     <div class="card-body">
                     <h5 class="card-title"><?php echo($p["nombre"]); ?></h5>
-                    <p class="card-text"><?php echo($p["marca"]) ?></p>
+                    <p class="card-text">marca:<?php echo($p["marca"]) ?></p>
                      <p class="card-text"><?php echo($p["descripcion"])  ?></p>
                      <p class="card-text">precio: $<?php echo($p["precio"])  ?></p>
                     <div class="row row-cols-1 row-cols-md-4">
